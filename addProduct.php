@@ -1,4 +1,8 @@
 <?php
+header("Access-Control-Allow-Origin: *"); // Allow any origin
+header("Access-Control-Allow-Methods: GET, POST, OPTIONS"); // Allow specific HTTP methods
+header("Access-Control-Allow-Headers: Content-Type, Authorization"); // Allow specific headers
+
 require("db.php"); 
 
 // 1. Process data from GET
